@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto',sans-serif;
+    /* outline-style: dashed; */
+    /* outline-color: red; */
+   
+
+}
+
+.nav {
+    background-color: #333332;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color:white;
+    font-weight: bold;
+    margin: 15px 0px 15px 20px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    margin: 10px 10px 10px 20px;
+    
+}
+
+.btn{
+    background-color: #3399ff;
+    color: white;
+    box-shadow: 2.5px 2.5px black;
+    
+}
+
+.nav-links a {
+color: whitesmoke;
+text-decoration: none;
+}
